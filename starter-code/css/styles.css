@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/starter-code/assets/home/background-home-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 150px;
+}
+
+h2 {
+    font-size: 100px;
+}
+
+h3 {
+    font-size: 56px;
+}
+
+h4 {
+    font-size: 32px;
+}
+
+h5 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Bellefair", serif;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+h5,
+p,
+a {
+    font-family: "Barlow Condensed", sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.top-container {
+    position: relative;
+}
+
+.top-container hr {
+    position: absolute;
+    width: 30%;
+    background-color: #ffffff;
+    opacity: 0.25;
+    top: 88px;
+    left: 167px;
+    z-index: 1000;
+}
+
+.top-container img {
+    margin: 64px 64px 0 55px;
+}
+
+.top-container ul li {
+    color: #ffffff;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 48px;
+    line-height: 95px;
+    letter-spacing: 2.7px;
+}
+
+.top-container ul {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.7742px);
+    -webkit-backdrop-filter: blur(40.7742px);
+    margin-top: 40px;
+    width: 60%;
+    padding-left: 100px;
+}
+
+.top-container ul li:hover {
+    border-bottom: 3px solid rgba(255, 255, 255, 0.25);
+}
+
+.top-container ul li:active {
+    border-bottom: 3px solid rgba(255, 255, 255);
+}
+
+.middle-container {
+    position: relative;
+    height: 100vh;
+}
+
+.left-side {
+    position: absolute;
+    width: 450px;
+    left: 165px;
+    bottom: 130px;
+}
+
+.left-side p,
+.left-side h5 {
+    color: #d0d6f9;
+    line-height: 32px;
+}
+
+.left-side h1 {
+    margin: 24px 0;
+}
+
+.left-side h5 {
+    letter-spacing: 4.725px;
+}
+
+.explore h4 {
+    width: 274px;
+    height: 274px;
+    color: #0b0d17;
+    font-weight: 400;
+    background-color: #fff;
+    border-radius: 50%;
+    line-height: 274px;
+    text-align: center;
+    -webkit-transition: box-shadow 0.2s;
+    -moz-transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+}
+
+.explore {
+    position: absolute;
+    right: 165px;
+    bottom: 131px;
+    cursor: pointer;
+
+}
+
+.explore:hover h4{
+    box-shadow: 0 0 0 88px rgba(255, 255, 255, 0.4);
+    /* color: #fff; */
+}
+
